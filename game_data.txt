@@ -1,0 +1,3844 @@
+A Good Night's Sleep
+
+# BITSY VERSION 7.2
+
+! ROOM_FORMAT 1
+
+PAL 0
+NAME inside
+153,142,243
+78,68,148
+214,208,254
+
+PAL 1
+NAME garden
+140,199,146
+69,132,102
+231,255,242
+
+PAL 2
+NAME awake
+232,207,92
+199,147,26
+248,248,218
+
+PAL fish0
+NAME blueprint
+0,82,204
+128,159,255
+255,255,255
+
+PAL cave0
+NAME ghosty
+119,130,196
+210,169,119
+41,255,248
+
+PAL cave1
+NAME ghosty_cave
+60,60,73
+26,26,50
+41,255,248
+
+ROOM 0
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,d,d,d,d,d,d,d,d,d,d,d,d,a,a
+a,a,d,g,f,f,f,f,f,f,f,f,e,d,a,a
+a,a,d,h,0,0,0,0,0,0,1b,1c,l,d,a,a
+a,a,d,h,u,v,0,0,q,0,1d,1e,l,d,a,a
+a,a,d,h,0,0,0,0,0,0,0,0,l,d,a,a
+a,a,d,h,0,0,0,0,0,0,10,11,l,d,a,a
+a,a,d,h,0,0,0,0,0,0,z,y,l,d,a,a
+a,a,d,h,w,x,0,0,0,0,0,0,l,d,a,a
+a,a,d,i,j,j,j,m,n,j,j,j,k,d,a,a
+a,a,d,d,d,d,d,h,l,d,d,d,d,d,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME bed room
+ITM 0 8,5
+EXT 10,5 1 7,13 FX fade_b DLG 9
+PAL 0
+
+ROOM 1
+a,a,a,a,a,a,15,0,1l,19,a,a,a,a,a,a
+a,a,a,a,a,14,1f,0,0,1a,12,a,a,a,a,a
+a,a,a,a,14,0,0,0,0,0,1a,12,a,a,a,a
+a,a,a,14,1f,0,1k,0,0,1l,0,1a,12,a,a,a
+a,a,14,1f,0,0,0,0,0,0,0,0,1a,12,a,a
+a,14,1f,1l,1j,g,f,f,f,f,e,1i,0,1a,12,a
+a,15,0,0,1j,h,0,0,0,0,l,1i,1k,0,19,a
+a,15,1k,0,1j,i,j,j,j,j,k,1i,0,0,19,a
+a,15,0,0,0,0,0,0,0,0,0,0,0,1l,19,a
+a,15,0,0,1k,0,0,0,0,0,0,0,0,0,19,a
+a,15,1l,0,0,0,0,1l,0,0,0,0,1l,0,19,a
+a,16,1g,0,0,0,0,0,0,0,0,0,0,1h,18,a
+a,a,16,1g,0,1k,0,0,0,0,1k,0,1h,18,a,a
+a,a,a,16,1g,0,0,0,0,0,0,1h,18,a,a,a
+a,a,a,a,16,17,17,17,17,17,17,18,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME garden
+ITM 3 9,6
+ITM 1 8,6
+ITM 2 7,6
+ITM 4 6,6
+EXT 8,0 2 6,6 FX tunnel
+PAL 1
+
+ROOM 2
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+13,13,13,13,13,1f,0,0,1l,0,1a,13,13,13,13,13
+0,1k,0,0,1l,0,0,0,0,0,0,0,0,1l,0,0
+1l,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1l
+0,0,1l,0,0,0,0,0,0,0,0,1k,0,0,0,0
+0,0,0,0,1l,0,0,0,1l,0,0,0,0,0,0,0
+17,17,17,17,17,1g,0,0,0,0,1h,17,17,17,17,17
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1l,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+NAME garden maze 2C
+ITM 5 1,1
+ITM 5 3,3
+ITM 5 14,1
+ITM 5 13,1
+ITM 5 12,1
+ITM 5 12,2
+ITM 5 12,3
+ITM 5 13,3
+ITM 5 14,3
+ITM 5 13,12
+ITM 5 12,14
+ITM 5 14,14
+ITM 5 2,12
+ITM 5 1,13
+ITM 5 2,14
+ITM 5 3,13
+EXT 15,7 2 6,6 FX tunnel DLG k
+EXT 0,7 2 6,6 FX tunnel DLG k
+EXT 7,15 2 6,6 FX tunnel DLG k
+EXT 7,0 6 6,7 FX slide_u DLG o
+PAL 1
+
+ROOM 3
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_3
+ITM fish4 4,3
+ITM fish4 8,4
+ITM fish4 9,7
+ITM fish4 5,8
+ITM fish4 7,11
+ITM fish4 11,9
+ITM fish4 11,6
+ITM fish4 5,4
+ITM fish4 4,10
+ITM fish4 7,7
+ITM fish3 8,7
+ITM fish3 5,9
+ITM fish3 4,4
+ITM fish4 4,5
+ITM fish4 8,8
+ITM fish4 5,10
+ITM fish4 11,11
+ITM fish4 11,3
+EXT 7,7 fish1 7,7
+EXT 9,7 fish1 9,7
+EXT 8,7 fish1 8,7
+EXT 4,4 4 4,4
+EXT 4,3 fish2 4,3
+EXT 5,4 5 5,4
+EXT 5,9 b 5,9
+EXT 11,9 fish1 11,9
+EXT 8,8 5 8,8
+EXT 4,5 4 4,5
+EXT 5,8 b 5,8
+EXT 5,10 4 5,10
+EXT 11,6 4 11,6
+EXT 11,3 5 11,3
+EXT 8,4 5 8,4
+EXT 7,11 b 7,11
+EXT 4,10 5 5,9
+EXT 11,11 b 11,11
+PAL fish0
+
+ROOM 4
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_4
+ITM fish4 6,5
+ITM fish4 6,6
+ITM fish4 6,7
+ITM fish4 6,8
+ITM fish4 6,9
+ITM fish4 6,10
+ITM fish4 8,10
+ITM fish4 7,10
+ITM fish4 9,10
+ITM fish4 10,10
+ITM fish4 11,10
+ITM fish4 8,8
+ITM fish4 8,7
+ITM fish4 8,6
+ITM fish4 8,5
+ITM fish4 9,8
+ITM fish4 10,8
+ITM fish4 11,8
+ITM fish4 5,4
+ITM fish4 8,4
+ITM fish4 8,3
+ITM fish4 8,2
+ITM fish4 7,2
+ITM fish4 6,2
+ITM fish4 5,2
+ITM fish4 11,9
+ITM fish1 10,9
+EXT 5,4 fish2 5,4
+EXT 5,2 fish1 5,2
+EXT 6,2 fish1 6,2
+EXT 7,2 fish1 7,2
+EXT 8,2 fish1 8,2
+EXT 8,3 fish1 8,3
+EXT 8,4 fish2 8,4
+EXT 6,5 3 6,5
+EXT 10,9 c 10,9
+EXT 8,5 fish1 8,5
+EXT 6,6 5 6,6
+EXT 8,6 5 8,6
+EXT 6,7 c 6,7
+EXT 8,7 fish2 8,7
+EXT 6,8 5 6,8
+EXT 6,9 5 6,9
+EXT 6,10 3 6,10
+EXT 7,10 fish1 7,10
+EXT 9,10 fish1 9,10
+EXT 10,10 fish1 10,10
+EXT 11,10 fish1 11,10
+EXT 11,9 fish1 11,9
+EXT 10,8 fish2 10,8
+EXT 9,8 5 9,8
+EXT 8,8 c 9,7
+EXT 11,8 5 11,8
+EXT 8,10 3 8,10
+PAL fish0
+
+ROOM 5
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_5
+ITM fish4 5,3
+ITM fish4 9,4
+ITM fish4 9,6
+ITM fish4 5,8
+ITM fish4 8,10
+ITM fish4 11,11
+ITM fish4 11,6
+ITM fish4 4,6
+ITM fish4 5,11
+ITM fish4 7,6
+ITM fish4 11,2
+ITM fish3 4,5
+ITM fish3 10,9
+ITM fish3 7,11
+EXT 5,3 c 5,3
+EXT 4,5 b 4,5
+EXT 10,9 b 10,9
+EXT 11,11 b 11,11
+EXT 11,2 c 11,2
+EXT 9,4 4 9,4
+EXT 9,6 4 9,6
+EXT 11,6 fish2 11,6
+EXT 7,6 c 7,6
+EXT 8,10 b 8,10
+EXT 7,11 fish2 7,11
+EXT 4,6 c 4,6
+EXT 5,8 c 5,8
+EXT 5,11 b 5,11
+PAL fish0
+
+ROOM 6
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+13,13,13,13,13,1f,0,0,1l,0,1a,13,13,13,13,13
+0,1k,0,0,1l,0,0,0,0,0,0,0,0,1l,0,0
+1l,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1l
+0,0,1l,0,0,0,0,0,0,0,0,1k,0,0,0,0
+0,0,0,0,1l,0,0,0,1l,0,0,0,0,0,0,0
+17,17,17,17,17,1g,0,0,0,0,1h,17,17,17,17,17
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1l,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+NAME garden maze 2U
+ITM 5 12,1
+ITM 5 14,3
+ITM 5 12,12
+ITM 5 12,14
+ITM 5 12,13
+ITM 5 13,14
+ITM 5 14,14
+ITM 5 14,12
+ITM 5 14,13
+ITM 5 1,3
+ITM 5 3,3
+ITM 5 3,1
+ITM 5 1,1
+ITM 5 1,14
+ITM 5 3,14
+ITM 5 1,13
+ITM 5 3,13
+ITM 5 1,12
+ITM 5 3,12
+ITM 5 2,12
+EXT 7,0 6 6,7 FX tunnel DLG k
+EXT 0,7 6 6,7 FX tunnel DLG k
+EXT 7,15 6 6,7 FX tunnel DLG k
+EXT 15,7 7 6,8 FX slide_r DLG m
+PAL 1
+
+ROOM 7
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+13,13,13,13,13,1f,0,0,1l,0,1a,13,13,13,13,13
+0,1k,0,0,1l,0,0,0,0,0,0,0,0,1l,0,0
+1l,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1l
+0,0,1l,0,0,0,0,0,0,0,0,1k,0,0,0,0
+0,0,0,0,1l,0,0,0,1l,0,0,0,0,0,0,0
+17,17,17,17,17,1g,0,0,0,0,1h,17,17,17,17,17
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1l,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+NAME garden maze UU
+ITM 5 1,12
+ITM 5 2,14
+ITM 5 1,14
+ITM 5 1,13
+ITM 5 3,14
+ITM 5 3,13
+ITM 5 3,12
+ITM 5 12,12
+ITM 5 12,13
+ITM 5 12,14
+ITM 5 13,14
+ITM 5 14,14
+ITM 5 14,13
+ITM 5 14,12
+ITM 5 2,1
+ITM 5 1,2
+ITM 5 2,3
+ITM 5 3,2
+ITM 5 12,1
+ITM 5 13,1
+ITM 5 14,1
+ITM 5 14,2
+ITM 5 14,3
+ITM 5 13,3
+ITM 5 12,3
+EXT 15,7 7 6,8 FX tunnel DLG k
+EXT 0,7 7 6,8 FX tunnel DLG k
+EXT 7,15 8 6,9 FX slide_d DLG m
+EXT 7,0 7 6,8 FX tunnel
+PAL 1
+
+ROOM 8
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+13,13,13,13,13,1f,0,0,1l,0,1a,13,13,13,13,13
+0,1k,0,0,1l,0,0,0,0,0,0,0,0,1l,0,0
+1l,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1l
+0,0,1l,0,0,0,0,0,0,0,0,1k,0,0,0,0
+0,0,0,0,1l,0,0,0,1l,0,0,0,0,0,0,0
+17,17,17,17,17,1g,0,0,0,0,1h,17,17,17,17,17
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,1l,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
+a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,1l,0,0,19,a,a,a,a,a
+NAME garden maze CU
+ITM 5 3,1
+ITM 5 1,1
+ITM 5 2,1
+ITM 5 1,2
+ITM 5 1,3
+ITM 5 2,3
+ITM 5 3,3
+ITM 5 1,12
+ITM 5 1,13
+ITM 5 1,14
+ITM 5 3,14
+ITM 5 2,14
+ITM 5 3,13
+ITM 5 3,12
+ITM 5 12,1
+ITM 5 14,3
+ITM 5 12,3
+ITM 5 14,1
+ITM 5 12,12
+ITM 5 14,14
+EXT 15,7 8 6,9 FX tunnel DLG k
+EXT 7,0 8 6,9 FX slide_l DLG k
+EXT 7,15 8 6,9 DLG k
+EXT 0,7 9 15,8 FX slide_l DLG x
+PAL 1
+
+ROOM 9
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,14,13,13,13,12,a,a,a,a,a,a,a,a
+a,a,14,1f,0,1l,0,1a,12,a,a,a,a,a,a,a
+a,14,1f,1k,0,0,0,0,1a,12,a,a,a,a,a,a
+13,1f,1j,g,f,f,f,e,1i,1a,12,a,a,a,a,a
+0,1k,1j,h,0,0,0,l,1i,0,1a,13,13,13,13,13
+0,0,1j,i,j,j,j,k,1i,0,0,0,0,1k,0,0
+0,0,0,0,1l,0,0,0,1k,0,0,0,0,0,0,0
+1l,0,0,0,1k,0,0,0,0,0,0,0,1l,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,1l,0,0,0,0,0,1k,0,1h,17,17,17,17,17
+17,1g,0,0,0,0,0,0,0,1h,18,a,a,a,a,a
+a,16,0,1k,0,1l,0,0,1h,18,a,a,a,a,a,a
+a,a,16,0,0,0,0,1h,18,a,a,a,a,a,a,a
+a,a,a,16,17,17,17,18,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME maze end
+ITM 3 4,5
+ITM 1 6,5
+ITM 0 5,5
+EXT 0,8 fish0 1,14 FX tunnel
+PAL 1
+
+ROOM fish0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,fishe,fishe,fishe,fishe,fishe,fishe,fishe,fishe,fishe,fishe,0,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,0,c,c,c,c,fishe,0,0
+0,0,0,fishf,fishf,fishf,fishf,fishf,fishf,fishf,fishf,fishf,fishf,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Landing_Room
+ITM fish4 4,3
+ITM fish4 4,7
+ITM fish4 7,8
+ITM fish4 9,6
+ITM fish4 10,4
+ITM fish4 11,10
+ITM fish4 8,12
+ITM fish4 5,10
+ITM fish4 12,7
+ITM fish4 7,5
+ITM fish4 5,4
+ITM fish3 10,9
+ITM fish1 12,2
+ITM fish2 5,7
+ITM fish3 7,3
+ITM fish0 4,0
+EXT 4,0 fish1 4,0
+PAL fish0
+
+ROOM fish1
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_1
+ITM fish4 4,3
+ITM fish4 8,6
+ITM fish4 5,8
+ITM fish4 8,10
+ITM fish4 11,4
+ITM fish4 10,3
+ITM fish4 5,5
+ITM fish4 11,11
+ITM fish4 11,8
+ITM fish4 4,11
+ITM fish3 7,4
+ITM fish3 9,11
+ITM fish3 4,6
+EXT 4,3 fish2 4,3
+EXT 10,3 3 10,3
+EXT 5,5 fish2 5,5
+EXT 7,4 fish2 7,4
+EXT 4,6 3 4,6
+EXT 9,11 4 9,11
+EXT 11,4 fish2 11,4
+EXT 8,6 fish2 8,6
+EXT 5,8 4 5,8
+EXT 11,8 fish2 11,8
+EXT 4,11 3 4,11
+EXT 8,10 fish2 8,10
+EXT 11,11 fish2 11,11
+PAL fish0
+
+ROOM fish2
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_2
+ITM fish4 5,3
+ITM fish4 8,5
+ITM fish4 9,9
+ITM fish4 5,10
+ITM fish4 8,11
+ITM fish4 10,12
+ITM fish4 12,8
+ITM fish4 11,5
+ITM fish4 4,6
+ITM fish4 3,9
+ITM fish4 8,3
+ITM fish4 6,7
+ITM fish4 9,7
+ITM fish4 12,10
+ITM fish4 5,12
+ITM fish3 6,4
+ITM fish3 11,9
+ITM fish3 4,11
+ITM fish2 7,8
+EXT 5,3 3 5,3
+EXT 8,3 3 8,3
+EXT 6,4 4 6,4
+EXT 8,5 3 8,5
+EXT 7,8 5 7,8
+EXT 9,9 fish1 9,9
+EXT 9,7 fish1 9,7
+EXT 11,5 3 11,5
+EXT 11,9 5 11,9
+EXT 4,6 4 4,6
+EXT 6,7 5 6,7
+EXT 3,9 5 3,9
+EXT 4,11 3 4,11
+EXT 5,10 4 5,10
+EXT 5,12 4 5,12
+EXT 8,11 5 8,11
+EXT 10,12 3 10,12
+EXT 12,8 4 12,8
+EXT 12,10 4 12,10
+PAL fish0
+
+ROOM fish6
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_6
+ITM fish4 6,4
+ITM fish4 9,5
+ITM fish4 9,8
+ITM fish4 6,8
+ITM fish4 6,10
+ITM fish4 10,11
+ITM fish4 11,8
+ITM fish4 7,5
+ITM fish4 5,5
+ITM fish4 4,7
+ITM fish4 4,10
+ITM fish4 6,11
+ITM fish4 8,11
+ITM fish4 11,9
+ITM fish4 11,4
+ITM fish4 11,6
+ITM fish4 8,2
+ITM fish2 10,6
+ITM fish3 3,5
+ITM fish3 10,10
+ITM fish3 7,9
+PAL fish0
+
+ROOM fish7
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_7
+ITM fish4 5,3
+ITM fish4 6,4
+ITM fish4 7,5
+ITM fish4 8,6
+ITM fish4 9,7
+ITM fish4 10,8
+ITM fish4 11,9
+ITM fish4 9,11
+ITM fish4 8,10
+ITM fish4 7,9
+ITM fish4 6,8
+ITM fish4 5,7
+ITM fish4 4,6
+ITM fish4 9,3
+ITM fish4 10,4
+ITM fish4 11,5
+ITM fish4 4,9
+ITM fish4 5,10
+ITM fish4 6,11
+ITM fish3 6,9
+ITM fish3 7,7
+ITM fish3 9,5
+PAL fish0
+
+ROOM fish8
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_8
+ITM fish4 5,4
+ITM fish4 4,7
+ITM fish4 8,9
+ITM fish4 10,10
+ITM fish4 8,11
+ITM fish4 5,11
+ITM fish4 5,8
+ITM fish4 9,6
+ITM fish4 11,4
+ITM fish4 8,4
+ITM fish4 4,5
+ITM fish4 10,8
+ITM fish4 11,6
+ITM fish4 8,3
+ITM fish4 10,3
+ITM fish4 10,11
+ITM fish4 4,11
+ITM fish2 6,7
+ITM fish3 11,5
+ITM fish3 7,11
+PAL fish0
+
+ROOM fish9
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_9
+ITM fish4 5,4
+ITM fish4 5,5
+ITM fish4 5,7
+ITM fish4 5,6
+ITM fish4 5,8
+ITM fish4 5,9
+ITM fish4 5,10
+ITM fish4 10,4
+ITM fish4 9,4
+ITM fish4 8,4
+ITM fish4 7,4
+ITM fish4 6,4
+ITM fish4 6,10
+ITM fish4 8,10
+ITM fish4 9,10
+ITM fish4 7,10
+ITM fish4 9,9
+ITM fish4 9,8
+ITM fish4 8,8
+ITM fish4 7,8
+ITM fish4 7,7
+ITM fish4 7,6
+ITM fish4 8,6
+ITM fish4 9,6
+ITM fish4 10,6
+ITM fish4 11,6
+ITM fish4 11,8
+ITM fish4 11,7
+ITM fish4 11,9
+ITM fish4 11,10
+ITM fish4 11,11
+ITM fish4 11,12
+ITM fish4 9,12
+ITM fish4 10,12
+ITM fish4 8,12
+ITM fish4 7,12
+ITM fish4 6,12
+ITM fish4 5,12
+ITM fish4 4,12
+ITM fish4 3,12
+ITM fish4 3,11
+ITM fish4 3,9
+ITM fish4 3,10
+ITM fish4 3,8
+ITM fish4 3,7
+ITM fish4 3,5
+ITM fish4 3,6
+ITM fish4 3,4
+ITM fish4 3,3
+ITM fish4 3,2
+ITM fish4 5,2
+ITM fish4 4,2
+ITM fish4 6,2
+ITM fish4 7,2
+ITM fish4 8,2
+ITM fish4 9,2
+ITM fish4 10,2
+ITM fish4 11,2
+ITM fish4 12,2
+ITM fish4 12,3
+ITM fish1 8,7
+PAL fish0
+
+ROOM a
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_10
+ITM fish4 4,4
+ITM fish4 4,7
+ITM fish4 7,10
+ITM fish4 5,11
+ITM fish4 10,10
+ITM fish4 10,7
+ITM fish4 10,6
+ITM fish4 10,4
+ITM fish4 6,4
+ITM fish4 6,6
+ITM fish4 11,8
+ITM fish4 11,11
+ITM fish4 8,11
+ITM fish3 8,7
+ITM fish3 3,10
+PAL fish0
+
+ROOM b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_11
+ITM fish4 5,7
+ITM fish4 6,7
+ITM fish4 6,8
+ITM fish4 8,4
+ITM fish4 8,5
+ITM fish4 9,5
+ITM fish4 8,8
+ITM fish4 8,7
+ITM fish4 9,7
+ITM fish4 5,5
+ITM fish4 6,5
+ITM fish4 6,4
+ITM fish1 7,6
+EXT 7,6 fish2 7,6
+EXT 6,4 4 6,4
+EXT 6,5 5 6,5
+EXT 8,4 c 8,4
+EXT 8,5 c 8,5
+EXT 9,5 c 9,5
+EXT 5,5 4 5,5
+EXT 8,8 c 8,8
+EXT 8,7 c 8,7
+EXT 9,7 c 9,7
+EXT 6,8 5 6,8
+EXT 6,7 fish1 6,7
+EXT 5,7 fish2 5,7
+PAL fish0
+
+ROOM c
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_12
+ITM fish2 12,12
+EXT 12,12 5 12,12
+PAL fish0
+
+ROOM d
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME room_13
+ITM fish2 5,5
+ITM fish1 9,10
+ITM fish4 4,9
+ITM fish4 6,11
+ITM fish4 9,4
+ITM fish4 11,7
+ITM fish4 7,8
+ITM fish4 11,5
+PAL fish0
+
+ROOM cave0
+cavei,cavei,cavea,caveh,caveh,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,cavea,caveh,caveh,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,cavea,caveh,caveh,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,cavea,caveh,caveh,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,cavea,caveh,caveh,caveg,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,cavea,caveh,caveh,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,cavea,caveh,caveh,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,cavea,caveh,caveh,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavea,cavea,cavee,cavee,cavea,cavea,cavea,cavea,cavea,cavea,cavea,cavea,cavea,cavea,cavea
+cavei,cavea,cavee,cavee,cavee,cavee,caveh,caveh,caveh,caveh,caveh,caveh,caveh,caveh,caveh,cavej
+cavei,cavea,cavee,cavee,cavee,cavee,caveh,caveh,caveh,caveh,caveh,caveh,caveh,caveh,caveh,cavea
+cavei,cavea,caveg,cavee,cavee,cavea,cavea,cavef,cavef,cavea,cavea,cavea,cavea,cavea,cavea,cavea
+cavei,cavei,cavea,caveh,cavea,cavea,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,caveh,caveh,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,caveh,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
+cavei,cavei,caveh,caveh,cavej,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavej
+NAME ghosty1
+EXT 4,15 cave0 3,0 FX wave
+EXT 15,15 cave1 10,5 FX fade_b DLG 3
+EXT 15,9 cave2 0,9 FX slide_r
+PAL cave0
+
+ROOM cave2
+0,0,0,cavei,0,cavea,0,cavel,cavel,0,cavei,cavel,cavel,cavem,cavem,cavel
+0,cavei,0,0,cavea,cavei,cavel,cavem,0,cavel,cavem,cavei,cavel,cavem,cavel,cavel
+cavei,cavei,cavei,cavei,cavea,cavem,0,cavei,0,caveh,caveh,caveh,0,cavei,cavel,cavem
+0,cavei,0,cavei,cavea,0,caveh,caveh,caveh,caveh,caveh,caveh,caveh,cavem,cavel,cavel
+0,cavei,cavei,cavea,cavei,0,caveh,caveh,caveh,caveh,0,caveh,caveh,caveh,0,cavei
+cavea,cavej,cavea,cavea,0,cavel,caveh,caveh,0,0,0,0,caveh,caveh,cavea,cavea
+cavei,cavea,cavei,0,cavem,caveh,caveh,caveh,0,0,cavei,cavei,caveh,caveh,cavea,cavej
+cavei,cavei,cavem,caveh,caveh,caveh,caveh,0,cavei,cavei,0,cavei,caveh,caveh,cavea,caveh
+cavea,cavem,cavel,caveh,caveh,caveh,caveh,0,0,0,0,0,caveh,caveh,caveh,caveh
+cavej,caveh,caveh,caveh,caveh,0,0,0,cavea,cavea,cavea,cavea,cavea,cavea,cavea,caveg
+cavea,caveh,caveh,caveh,caveh,0,0,cavea,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavea
+cavea,cavea,0,0,cavei,cavei,0,cavea,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavea
+cavei,cavei,cavea,0,cavei,cavei,0,cavea,cavek,cavek,cavek,cavef,cavef,cavek,cavek,cavea
+cavei,cavei,cavea,0,0,0,0,cavea,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavea
+cavei,cavei,cavea,0,0,cavei,cavei,cavea,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavea
+cavei,cavei,cavea,0,0,cavea,cavej,cavea,cavea,cavea,cavea,cavea,cavea,cavea,cavea,0
+NAME ghosty2
+ITM cave2 2,1
+EXT 0,9 cave0 15,9 FX slide_l
+EXT 4,15 cave2 0,0 FX wave
+EXT 1,5 cave2 1,9 FX wave
+EXT 6,15 cave3 6,0 FX tunnel
+EXT 15,6 cave5 0,6 FX slide_r
+PAL cave0
+
+ROOM cave3
+cavek,cavek,cavek,cavek,cavek,cavek,cavej,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,caveg
+cavek,cavef,cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,caveg,cavek,cavek,cavek,cavef,cavek
+cavek,caveg,cavek,cavef,cavek,cavek,0,cavek,cavef,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavef,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,0,0,0,0,0,0,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,caveg,cavek,cavek,0,cavek,cavek,cavek,cavek,0,0,0,cavek,cavek
+caveg,cavek,cavek,cavek,cavek,cavek,0,cavek,cavef,cavek,cavek,cavek,cavek,0,cavek,cavek
+cavek,cavek,caveg,cavek,cavek,cavek,0,cavek,cavek,cavek,caveg,0,0,0,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,0,0,cavek,cavek,cavek,0,cavek,cavek,cavef,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,0,0,cavek,cavek,cavek,0,0,0,cavek,cavek
+cavek,cavek,cavek,cavef,cavek,cavek,cavek,cavek,cavek,caveg,cavek,cavek,cavek,0,cavek,cavef
+cavek,cavef,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,0,0,0,cavek,cavek
+cavek,cavek,cavek,cavek,0,0,0,0,0,0,0,0,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavef,cavek,0,cavek,cavek,caveg,cavek,cavek,caveg,cavek,cavek,cavek,cavef,cavek
+cavef,cavek,cavek,cavek,cavej,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,caveg,cavek,cavek
+NAME ghosty3
+EXT 6,0 cave2 6,15 FX tunnel
+EXT 4,15 cave4 4,0 FX slide_d
+PAL cave1
+
+ROOM cave4
+cavek,cavek,cavek,cavek,cavej,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,0,0,0,0,0,cavej,cavek
+cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,0,0,0,0,0,cavej,cavek
+cavek,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavej,cavek,cavek,cavek,0,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavej,0,0,0,0,0,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,0,0,0,0,0,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,0,0,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,0,cavej,cavek,cavek,cavek,cavek,cavek
+cavek,cavej,0,0,0,cavej,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,0,cavej,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavej,cavek,0,0,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,0,cavek,0,0,0,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavej,cavek,cavek,cavek,0,cavej,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,caveg,cavek
+NAME ghosty4
+ITM cave3 1,7
+ITM cave3 2,3
+ITM cave3 0,5
+ITM cave3 4,8
+ITM cave3 1,12
+ITM cave3 5,14
+ITM cave3 2,14
+ITM cave3 15,4
+ITM cave3 14,7
+ITM cave3 13,9
+ITM cave3 6,1
+ITM cave3 7,2
+ITM cave3 7,4
+ITM cave2 12,6
+ITM cave3 7,11
+ITM cave3 7,12
+ITM cave3 11,10
+ITM cave3 12,15
+ITM cave3 0,15
+ITM cave3 1,1
+EXT 4,0 cave3 4,15 FX slide_u
+EXT 4,5 cave4 14,1 FX tunnel
+EXT 14,1 cave4 4,5
+EXT 14,3 cave4 9,14 FX tunnel
+EXT 9,14 cave4 14,3
+EXT 9,12 cave4 1,10 FX tunnel
+EXT 1,10 cave4 9,12
+EXT 5,10 cave4 14,14 FX tunnel
+EXT 14,14 cave4 5,10
+EXT 13,11 cave4 7,6 FX tunnel
+EXT 7,6 cave4 13,11
+EXT 10,9 cave4 4,4 FX tunnel
+PAL cave1
+
+ROOM cave5
+cavel,cavei,cavei,0,cavel,cavel,0,cavei,cavei,cavel,cavel,cavei,0,cavel,cavei,cavei
+cavei,cavem,cavei,0,cavei,0,cavel,cavei,cavei,cavem,cavem,cavem,cavem,cavei,cavei,cavel
+cavel,0,cavem,0,cavel,0,0,0,cavem,cavem,0,cavei,cavem,cavei,cavei,cavel
+cavel,cavel,cavei,0,cavei,cavei,cavei,0,cavem,cavei,0,cavei,cavei,cavei,cavel,cavei
+cavem,cavem,cavel,cavem,cavem,cavem,cavem,cavel,cavem,cavel,cavel,cavem,cavem,cavem,cavem,cavem
+caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven
+cavej,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee
+cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavea,cavea
+caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+NAME ghosty5
+ITM cave2 15,6
+EXT 0,6 cave2 15,6 FX slide_l
+PAL cave0
+
+ROOM cave6
+cavel,cavei,cavei,0,cavel,cavel,0,cavei,cavei,cavel,cavel,cavei,0,cavel,cavei,cavei
+cavei,cavem,cavei,0,cavei,0,cavel,cavei,cavei,cavem,cavem,cavem,cavem,cavei,cavei,cavel
+cavel,0,cavem,0,cavel,0,0,0,cavem,cavem,0,cavei,cavem,cavei,cavei,cavel
+cavel,cavel,cavei,0,cavei,cavei,cavei,0,cavem,cavei,0,cavei,cavei,cavei,cavel,cavei
+cavem,cavem,cavel,cavem,cavem,cavem,cavem,cavel,cavem,cavel,cavel,cavem,cavem,cavem,cavem,cavem
+caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven
+cavej,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee
+cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavee,cavea,cavea
+caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,caven,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o
+NAME ghosty6
+ITM cave2 13,7
+EXT 0,6 cave2 15,6 FX slide_l
+PAL cave0
+
+ROOM cave1
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,d,d,d,d,d,d,d,d,d,d,d,d,a,a
+a,a,d,g,f,f,f,f,f,f,f,f,e,d,cavek,a
+a,a,d,h,fishg,fishh,0,0,0,0,1b,1c,l,d,cavek,cavek
+a,a,d,h,u,v,0,0,q,0,1d,1e,l,d,cavek,a
+a,a,d,h,0,0,0,0,0,0,0,0,l,d,cavek,a
+a,a,d,h,0,0,0,0,0,0,0,0,l,d,cavek,a
+a,a,d,h,0,0,0,0,0,0,z,y,l,d,cavek,a
+a,a,d,h,w,x,0,0,0,0,fishi,fishj,l,d,a,a
+a,a,d,i,j,j,j,m,n,j,j,j,k,d,cavek,a
+cavek,cavek,d,d,d,d,d,i,k,d,d,d,d,d,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek,cavek
+NAME awake_again
+END caveb 8,12
+PAL 2
+
+TIL 10
+00000111
+00000100
+00011100
+00010111
+00010100
+00010100
+00010111
+00011100
+NAME chair left
+
+TIL 11
+11100000
+00100000
+00111000
+11101000
+00101000
+00101000
+11101000
+00111000
+NAME chair right
+
+TIL 12
+11111111
+10101111
+01010111
+00101011
+10000111
+00010101
+00000011
+00000111
+>
+11111111
+10101011
+00000101
+00010011
+00101011
+00000101
+00001001
+00000011
+NAME grass top right
+
+TIL 13
+11111111
+11101101
+10001010
+00100100
+00000000
+00000000
+00000000
+00000000
+>
+11111111
+11101011
+10010001
+01001010
+00100000
+00000000
+00000000
+00000000
+NAME grass top
+
+TIL 14
+11111111
+11010101
+11001010
+10101000
+11000101
+11110000
+11000000
+11100000
+>
+11111111
+11010101
+11101000
+10000101
+11001010
+11100000
+11010000
+11100000
+NAME grass top left
+
+TIL 15
+11010000
+10000000
+11010000
+11100000
+11001000
+10100000
+11110100
+11100000
+>
+11001000
+10100000
+11000000
+10100000
+11001000
+10100100
+11010000
+11100000
+NAME grass left
+
+TIL 16
+11000000
+10000000
+11010000
+10100100
+11110001
+11001010
+10111101
+11111111
+>
+10000000
+10100000
+11000000
+10010010
+11000100
+11010000
+10101101
+11111111
+NAME grass bottom left
+
+TIL 17
+00000000
+00000000
+00000000
+00000001
+01001000
+00100010
+10110111
+11111111
+>
+00000000
+00000000
+00010000
+01000000
+00100100
+10010001
+01011011
+11111111
+NAME grass bottom
+
+TIL 18
+00000111
+00010011
+00000101
+00000001
+10010111
+00101001
+01001111
+11111111
+>
+00000101
+00001011
+00100001
+00010101
+10000011
+00101001
+10000011
+11111111
+NAME grass bottom right
+
+TIL 19
+00000011
+00000101
+00000001
+00010111
+00000001
+00001011
+00000011
+00000111
+>
+00001011
+00000001
+00010001
+00000101
+00001001
+00000011
+00100001
+00010111
+NAME grass left
+
+TIL a
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME block
+WAL true
+
+TIL d
+11011101
+00000000
+11011101
+11011101
+11011101
+00000000
+11011101
+11011101
+NAME room wall
+WAL true
+
+TIL e
+11111111
+11111111
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+NAME top right border
+
+TIL f
+11111111
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME top border
+
+TIL g
+11111111
+11111111
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+NAME top left border
+
+TIL h
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+NAME left border
+
+TIL i
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11111111
+11111111
+NAME bottom left border
+
+TIL j
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11111111
+11111111
+NAME bottom border
+
+TIL k
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+11111111
+11111111
+NAME bottom right border
+
+TIL l
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+NAME right border
+
+TIL m
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+11000000
+11000000
+NAME bottom left corner
+
+TIL n
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000011
+00000011
+NAME bottom right corner
+
+TIL q
+11111111
+10000001
+10000001
+11111111
+10000001
+00000000
+00000000
+00000000
+NAME table
+
+TIL u
+11111111
+10000000
+10000000
+11111111
+10000000
+10000000
+00000000
+00000000
+NAME table left
+
+TIL v
+11111111
+00000001
+00000001
+11111111
+00000001
+00000001
+00000000
+00000000
+NAME table right
+
+TIL w
+11110000
+10011111
+10010000
+10010000
+10010000
+10011111
+10000000
+11111111
+NAME couch left
+WAL true
+
+TIL x
+00001111
+11111001
+00001001
+00001001
+00001001
+11111001
+00000001
+11111111
+NAME couch right
+WAL true
+
+TIL y
+00000000
+00000000
+00000001
+00000001
+11111111
+00000001
+00000001
+11111111
+NAME desk right
+
+TIL z
+00000000
+00000000
+10000000
+10000000
+11111111
+10000000
+10000000
+11111111
+NAME desk left
+
+TIL 1a
+00001011
+00000001
+00001010
+00000001
+00000000
+00000000
+00000000
+00000000
+>
+00001011
+00000100
+00000000
+00000001
+00000010
+00000000
+00000000
+00000000
+NAME inner grass corner
+
+TIL 1b
+01111111
+10000000
+10111110
+10100010
+10100010
+10111110
+10000000
+11111111
+NAME bed top left
+
+TIL 1c
+11111110
+00000001
+01111101
+01000101
+01000101
+01111101
+00000001
+11111111
+NAME bed top right
+
+TIL 1d
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+10000000
+01111111
+NAME bed bottom left
+
+TIL 1e
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+00000001
+11111110
+NAME bed bottom right
+
+TIL 1f
+11000000
+11000000
+10001000
+00100000
+00000000
+00000000
+00000000
+00000000
+>
+11101000
+11000000
+00000000
+01000000
+00000000
+00000000
+00000000
+00000000
+NAME top left inner grass
+
+TIL 1g
+00000000
+00000000
+00000000
+00000000
+10000000
+00000000
+10100000
+11010000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+10100000
+10000000
+11010100
+NAME bottom left inner grass
+
+TIL 1h
+00000000
+00000000
+00000010
+00000000
+00000001
+00000100
+00000011
+00001111
+>
+00000000
+00000000
+00000001
+00000000
+00000100
+00000001
+00001001
+00000011
+NAME bottom right inner corner
+
+TIL 1i
+11000000
+10000000
+11100000
+10000000
+11000000
+10000000
+11100000
+10000000
+NAME picnic blanket right
+
+TIL 1j
+00000111
+00000001
+00000011
+00000001
+00000111
+00000001
+00000011
+00000001
+NAME picnic blanket right
+
+TIL 1k
+00011000
+00100100
+01100110
+10011001
+10011001
+01100110
+00100100
+00011000
+>
+00011000
+00100100
+01100110
+10011001
+10011001
+01100110
+00100100
+00011000
+NAME large flower
+
+TIL 1l
+00001000
+01000000
+10100010
+01000101
+00000010
+10010000
+00101010
+00010000
+>
+00001000
+01000000
+10100010
+01000101
+00000010
+10010000
+00101010
+00010000
+NAME small flowers
+
+TIL b
+00000000
+00000000
+00000000
+00000000
+00000000
+00010000
+00011010
+00111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00010000
+00011010
+00111111
+NAME Grass Bottom
+
+TIL c
+00000000
+00000000
+00000000
+00110100
+01011010
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00000000
+00011010
+00101101
+00000000
+00000000
+00000000
+NAME Wave
+
+TIL fishd
+00010000
+00011010
+00111111
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Grass Top
+
+TIL fishe
+00000000
+00000000
+00000000
+00000000
+00000000
+00010000
+00011010
+00111111
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00010000
+00011010
+00111111
+NAME Blocked Bott
+WAL true
+
+TIL fishf
+00010000
+00011010
+00111111
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Blocked Top
+WAL true
+
+TIL cavea
+01011011
+11111111
+01111111
+11111110
+01111111
+01111110
+01111111
+00011010
+NAME bush
+WAL true
+
+TIL cavee
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+NAME idk floor
+
+TIL cavef
+11111111
+11000011
+10110001
+11111001
+11111001
+10110001
+11000011
+11111111
+>
+11111111
+11000011
+10000001
+10011001
+10111101
+10111101
+11011011
+11111111
+NAME eye
+WAL true
+
+TIL caveg
+11111111
+11011011
+10111101
+10111101
+10011001
+10000001
+11000011
+11111111
+>
+11111111
+11110011
+11111001
+11111001
+10110001
+10000001
+11000011
+11111111
+NAME eye2
+WAL true
+
+TIL caveh
+00000000
+01100000
+00110010
+00000000
+01000000
+00001110
+00000100
+01100000
+NAME path
+
+TIL cavei
+00000000
+00100000
+01010010
+00100101
+00000010
+00010000
+00101000
+00010000
+NAME flower
+
+TIL cavej
+00000000
+00111100
+00011100
+00011000
+00000000
+00011000
+00011000
+00000000
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME ghosty_exit_marker
+
+TIL cavek
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME block
+WAL true
+
+TIL cavel
+00011000
+00111100
+00011000
+01111110
+00111100
+01111110
+00011000
+00011000
+NAME tree1
+WAL true
+
+TIL cavem
+00000000
+00000000
+00000000
+00011000
+00111100
+00011000
+01111110
+00011000
+NAME tree2
+WAL true
+
+TIL caven
+00000000
+00001000
+00011100
+01001001
+01001001
+10110110
+11111111
+10110110
+NAME ghosty_gate
+WAL true
+
+TIL o
+11111111
+01110111
+10001011
+11111111
+11101111
+00010111
+11111101
+11111010
+>
+11111011
+11110101
+11101111
+11111111
+11110101
+11001011
+11111110
+11111101
+NAME water
+
+TIL p
+00000000
+00000000
+00000000
+00000000
+00001111
+00011111
+00011111
+00011111
+NAME bed1
+
+TIL caveq
+00000000
+00000001
+00000001
+00001111
+11110001
+11111111
+11111111
+11111111
+NAME bed2
+
+TIL r
+10000001
+10000001
+10001101
+10001101
+10000001
+10000001
+10000001
+10000001
+NAME door_bottom
+
+TIL s
+00000000
+11111111
+10000001
+10000001
+10000001
+10000001
+10000001
+10000001
+NAME door_top
+
+TIL fishg
+00111111
+00100000
+00101100
+00100101
+00100001
+00111111
+00000010
+00000100
+>
+00111111
+00100000
+00101000
+00101101
+00100001
+00111111
+00000010
+00000100
+NAME tv tile left
+
+TIL fishh
+11111100
+00000100
+10000100
+01010100
+01000100
+11111100
+01000000
+00100000
+>
+11111100
+00000100
+10010100
+01000100
+01000100
+11111100
+01000000
+00100000
+NAME tv tile right
+
+TIL fishi
+00000100
+00000010
+00001111
+00001000
+00001011
+00001000
+00001111
+00000000
+>
+00000100
+00000010
+00001111
+00001000
+00001000
+00001011
+00001111
+00000000
+NAME computer tile left
+
+TIL fishj
+00100000
+01000000
+11110000
+00010000
+11010000
+00010000
+11110000
+00000000
+>
+00100000
+01000000
+11110000
+00010000
+00010000
+11010000
+11110000
+00000000
+NAME computer tile right
+
+SPR 10
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS o 3,0
+
+SPR 11
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS p 3,0
+
+SPR 12
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS q 3,0
+
+SPR 13
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS 4 3,0
+
+SPR 14
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS 5 3,0
+
+SPR 15
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS fish6 3,0
+
+SPR 16
+00000000
+00000000
+00000000
+00010110
+00001000
+00000000
+00000000
+00000000
+NAME Magic Guppy
+DLG fish4
+POS c 5,5
+
+SPR A
+00011100
+00011100
+00011100
+00001000
+00111110
+00011100
+00010100
+00010100
+POS 0 8,10
+
+SPR a
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+11111111
+11111111
+NAME door bottom left
+DLG 0
+POS 0 7,12
+
+SPR b
+00111111
+00100000
+00101100
+00100101
+00100001
+00111111
+00000010
+00000100
+>
+00111111
+00100000
+00101000
+00101101
+00100001
+00111111
+00000010
+00000100
+NAME tv left
+DLG 4
+POS 0 4,5
+
+SPR c
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+11111111
+11111111
+NAME door right
+DLG 3
+POS 0 8,12
+
+SPR d
+11111100
+00000100
+10010100
+11000100
+01000100
+11111100
+01000000
+00100000
+>
+11111100
+00000100
+10000100
+11010100
+01000100
+11111100
+01000000
+00100000
+NAME tv right
+DLG 5
+POS 0 5,5
+
+SPR e
+00000100
+00000010
+00001111
+00001000
+00001000
+00001011
+00001111
+00000000
+>
+00000100
+00000010
+00001111
+00001000
+00001011
+00001000
+00001111
+00000000
+NAME computer left
+DLG 6
+POS 0 10,10
+
+SPR f
+00100000
+01000000
+11110000
+00010000
+00010000
+11010000
+11110000
+00000000
+>
+00100000
+01000000
+11110000
+00010000
+11010000
+00010000
+11110000
+00000000
+NAME computer right
+DLG 8
+POS 0 11,10
+
+SPR g
+11111111
+11111111
+11000000
+11000000
+11000000
+11000000
+11000000
+11000000
+NAME door top left
+
+SPR h
+11111111
+11111111
+00000011
+00000011
+00000011
+00000011
+00000011
+00000011
+NAME door bottom right
+
+SPR i
+00111100
+00011100
+00011100
+00001000
+00111110
+00011100
+00010100
+00010100
+>
+00011110
+00011100
+00011100
+00001000
+00111110
+00011100
+00010100
+00010100
+NAME ichiban
+DLG d
+POS 1 6,8
+
+SPR j
+00000000
+00011100
+00010100
+00111100
+00001000
+00111110
+00011100
+00010100
+>
+00000000
+00011100
+00010100
+00011110
+00001000
+00111110
+00011100
+00010100
+NAME little duck
+DLG c
+POS 1 9,8
+
+SPR k
+00011100
+00111110
+00011100
+00011100
+00001000
+00111100
+00011110
+00100100
+>
+00011100
+00111110
+00011100
+00011100
+00001000
+00011110
+00111100
+00010010
+NAME Joseph
+DLG b
+POS 1 8,11
+
+SPR l
+00000000
+00001100
+00110100
+01011010
+11111001
+00110001
+00111010
+00111100
+>
+00000000
+00001100
+00110100
+01011001
+11111010
+00110001
+00111010
+00111100
+NAME giant rat
+DLG i
+POS 1 7,2
+
+SPR m
+00000000
+00001100
+00110100
+01011010
+11111001
+00110001
+00111010
+00111100
+>
+00000000
+00001100
+00110100
+01011001
+11111010
+00110001
+00111010
+00111100
+NAME tiny rat
+DLG j
+POS 2 9,6
+
+SPR n
+00000000
+00001100
+00110100
+01011010
+11111001
+00110001
+00111010
+00111100
+>
+00000000
+00001100
+00110100
+01011001
+11111010
+00110001
+00111010
+00111100
+NAME little rat
+DLG p
+POS 6 9,7
+
+SPR o
+00000000
+00001100
+00110100
+01011010
+11111001
+00110001
+00111010
+00111100
+>
+00000000
+00001100
+00110100
+01011001
+11111010
+00110001
+00111010
+00111100
+NAME baby rat
+DLG y
+POS 7 9,8
+
+SPR p
+00000000
+00001100
+00110100
+01011001
+11111010
+00110001
+00111010
+00111100
+>
+00000000
+00001100
+00110100
+01011010
+11111001
+00110001
+00111010
+00111100
+NAME babiest rat
+DLG s
+POS 8 9,9
+
+SPR q
+00011100
+00111110
+00011100
+00011100
+00001000
+00111100
+00011110
+00100100
+>
+00011100
+00111110
+00011100
+00011100
+00001000
+00011110
+00111100
+00010010
+NAME Joseph 2
+DLG u
+POS 9 11,9
+
+SPR r
+00111100
+00111000
+00111000
+00010000
+01111100
+00111000
+00101000
+00101000
+>
+01111000
+00111000
+00111000
+00010000
+01111100
+00111000
+00101000
+00101000
+NAME Ichiban 2
+DLG v
+POS 9 6,7
+
+SPR s
+00000000
+00011100
+00010100
+00011110
+00001000
+00111110
+00011100
+00010100
+>
+00000000
+00011100
+00010100
+00111100
+00001000
+00111110
+00011100
+00010100
+NAME Little Duck 2
+DLG w
+POS 9 4,7
+
+SPR fishA
+00000000
+00010000
+00101000
+00010000
+00111000
+00010000
+00101000
+00000000
+>
+00000000
+00010000
+00101000
+00010000
+00111000
+00010000
+00101000
+00000000
+
+SPR fishf
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+NAME Cat
+DLG fish3
+POS fish0 3,0
+
+SPR fishg
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS fish1 3,0
+
+SPR fishh
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS fish2 3,0
+
+SPR fishi
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS 3 3,0
+
+SPR fishj
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS fish7 3,0
+
+SPR fishk
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS fish8 3,0
+
+SPR fishl
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS fish9 3,0
+
+SPR fishm
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS a 3,0
+
+SPR fishn
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS b 3,0
+
+SPR fisho
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS c 3,0
+
+SPR fishp
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS d 3,0
+
+SPR fishq
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS e 3,0
+
+SPR fishr
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS f 3,0
+
+SPR fishs
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS g 3,0
+
+SPR t
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS h 3,0
+
+SPR u
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS i 3,0
+
+SPR v
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS j 3,0
+
+SPR w
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS k 3,0
+
+SPR x
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS l 3,0
+
+SPR y
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS m 3,0
+
+SPR z
+00000000
+00000000
+01010001
+01110001
+01110010
+01111100
+00111100
+00100100
+>
+00000000
+00000000
+01010000
+01110001
+01110001
+01111110
+00111100
+00100100
+DLG fish3
+POS n 3,0
+
+SPR caveA
+00011000
+00011000
+00011000
+00111100
+01111110
+10111101
+00100100
+00100100
+
+SPR cavea
+00010000
+01001000
+00001100
+00011100
+00111100
+00111100
+00011000
+00000000
+>
+00001000
+00100000
+00110010
+00011000
+00111100
+00111100
+00011000
+00000000
+NAME spirit
+DLG cave4
+POS cave0 4,10
+
+SPR caveb
+00000000
+00111100
+01000010
+10110001
+10110001
+01110010
+00111100
+00000000
+>
+00000000
+00111100
+01000010
+10001101
+10001101
+01001110
+00111100
+00000000
+NAME eye3
+DLG cave5
+POS cave0 11,8
+
+SPR cavec
+00000000
+01000000
+00111000
+01110110
+01111110
+00111000
+01101000
+00101000
+>
+00000000
+00000000
+01000000
+00111000
+01110110
+01111110
+00111000
+01101000
+NAME crow
+DLG 7
+POS cave2 4,14
+
+SPR caved
+00000000
+00000000
+00100000
+00001000
+00011000
+00011000
+00000000
+00000000
+>
+00000000
+00010000
+00000100
+00011100
+00011000
+00000000
+00000000
+00000000
+NAME cave_spirit
+DLG cave8
+POS cave3 7,9
+
+SPR cavee
+00011000
+01111110
+11011011
+11011011
+11111111
+10100101
+11000011
+01111110
+>
+00011000
+01111110
+11011011
+11011011
+11111111
+10100101
+10000001
+01000010
+NAME pumpkin
+DLG cave9
+POS cave5 14,6
+
+SPR cavef
+00011000
+01111110
+11011011
+11011011
+11111111
+10100101
+11000011
+01111110
+>
+00011000
+01111110
+11011011
+11011011
+11111111
+10100101
+10000001
+01000010
+NAME pumpkin2
+DLG a
+POS cave6 14,6
+
+ITM 0
+00001000
+00010000
+00001000
+00000000
+00111100
+01100100
+00100100
+00011000
+>
+00010000
+00001000
+00010000
+00000000
+00111100
+01100100
+00100100
+00011000
+NAME tea
+DLG 1
+
+ITM 1
+00000000
+00000000
+00001000
+00001000
+00111110
+00100010
+00100010
+01111111
+>
+00000000
+00000000
+00000100
+00001000
+00111110
+00100010
+00100010
+01111111
+NAME cake
+DLG h
+
+ITM 2
+00000000
+00000000
+00000000
+00000000
+11000011
+10111101
+01000010
+00111100
+NAME hot dog
+DLG f
+
+ITM 3
+00000000
+00000000
+00000000
+00110001
+01001011
+01000101
+01001011
+00110001
+NAME cooked fish
+DLG g
+
+ITM 4
+00010000
+00001000
+00010000
+00000000
+00111100
+00100110
+00100100
+00011000
+>
+00001000
+00010000
+00001000
+00000000
+00111100
+00100110
+00100100
+00011000
+NAME matcha
+DLG e
+
+ITM 5
+00000001
+01001000
+00010100
+10001000
+00000010
+00100101
+01010010
+00100000
+>
+00010000
+00000010
+00100101
+01010010
+00100000
+10001000
+00010100
+00001001
+NAME flowers
+
+ITM fish0
+00000011
+00000101
+00001011
+00010101
+00101001
+01010010
+10100010
+11001100
+NAME rod
+DLG fish1
+
+ITM fish1
+00000001
+00111101
+01101110
+00011110
+00011101
+01111001
+00000000
+00000000
+>
+00000001
+00111101
+01101110
+01111110
+01111101
+01111001
+00000000
+00000000
+NAME Chompy
+
+ITM fish2
+00000000
+00011000
+00111100
+01111101
+11011110
+11111110
+01111101
+00000000
+>
+00000000
+00011000
+00111100
+01111101
+11011110
+11111110
+01111101
+00000000
+NAME rare_fish
+
+ITM fish3
+00000000
+00000000
+10011000
+11110100
+11111100
+10011000
+00000000
+00000000
+>
+00000000
+00000000
+10011000
+11110100
+11111100
+10011000
+00000000
+00000000
+NAME common_fish
+
+ITM fish4
+00000000
+00000000
+00101100
+00010000
+00000000
+00000000
+00000000
+00000000
+NAME guppy
+
+ITM cave0
+00000000
+00000000
+00000000
+00111100
+01100100
+00100100
+00011000
+00000000
+NAME tea
+DLG cave1
+
+ITM cave1
+00000000
+00111100
+00100100
+00111100
+00010000
+00011000
+00010000
+00011000
+NAME key
+DLG cave2
+
+ITM cave2
+00000000
+00111100
+01000010
+01011010
+01011010
+01000010
+00111100
+00000000
+>
+00000000
+00000000
+00000000
+00011000
+00011000
+00000000
+00000000
+00000000
+NAME spirit_piece
+DLG cave6
+
+ITM cave3
+00000000
+00100010
+01010000
+10001000
+01010000
+00100010
+00000100
+00000000
+>
+00000010
+00000111
+00100010
+01010000
+00100000
+00000100
+00000000
+00000000
+NAME sparkle_decor
+
+DLG 0
+It is time for bed...
+NAME door left dialog
+
+DLG 1
+Maybe some warm tea will help you get a quality night of sleep.
+NAME tea dialog
+
+DLG 3
+You are feeling pretty sleepy...
+NAME door right dialog
+
+DLG 4
+You should probably turn the TV off, it might help you sleep.
+NAME tv left dialog
+
+DLG 5
+"""
+{sequence
+  - You left the news channel playing on the TV.
+    {}
+    The anchor is pretty loud.
+}
+"""
+NAME tv right dialog
+
+DLG 6
+Your computer screen displays a long list of things you did today.
+NAME computer left dialog
+
+DLG 7
+"""
+{sequence
+  - Psst. Go under me. Just trust me.
+  - You can thank me later.
+}
+"""
+NAME crow dialog
+
+DLG 8
+"""
+{sequence
+  - This tab shows some photos from your day today.
+    {}
+    Theres some hedges that you trimmed...
+    {}
+    A huge fish you caught at the pond...
+    {}
+    And a really cool rock from your evening walk.
+}
+"""
+NAME computer right dialog 1
+
+DLG 9
+"""
+{sequence
+  - You crawl in to bed and burrow under the covers.
+    {}
+    As you drift off to sleep, you recount today's events.
+    {}
+    You did some light gardening in the morning...
+    {}
+    You caught some fish at the pond in the afternoon...
+    {}
+    and you went for a stroll in the grove near the cave before returning home in the evening.
+    {pg}
+    After your long day, all you can hope for is a good night's sleep.
+}
+"""
+NAME sleep
+
+DLG b
+"""
+{sequence
+  - {clr2}Joseph Joestar:{clr2} {wvy}Welcome to dreamland!{wvy}
+    {}
+    {clr2}Joseph Joestar:{clr2} I'm enjoying a nice picnic with my friends...
+    {}
+    {clr2}Joseph Joestar:{clr2} Won't you come join us?
+}
+"""
+NAME Joseph dialog
+
+DLG c
+"""
+{sequence
+  - {clr2}Little Duck:{clr2} You say you're here to get a good night's sleep?
+    {}
+    {clr2}Little Duck:{clr2} You have to reach the end of the dream to do that!
+    {}
+    {clr2}Little Duck:{clr2} The path behind this picnic blanket leads somewhere I think...
+    {pg}
+    {clr2}Little Duck:{clr2} It will be a pretty big adventure... talk to the giant rat first!
+}
+"""
+NAME little duck dialog
+
+DLG d
+"""
+{sequence
+  - {clr2}Ichiban Kasuga:{clr2} Trying to get some sleep?
+    {}
+    {clr2}Ichiban Kasuga:{clr2} You'll have to reach the end of this dream I think...
+    {pg}
+    {clr2}Ichiban Kasuga:{clr2} That giant rat can probably help.
+}
+"""
+NAME ichiban dialog
+
+DLG e
+A hot cup of matcha with honey and cinnamon. Sounds good!
+NAME matcha dialog
+
+DLG f
+A cold hot dog? These are some pretty weird picnic foods.
+NAME hot dog dialog
+
+DLG g
+A whole cooked fish. Maybe from the pond?
+NAME cooked fish dialog
+
+DLG h
+Is it somebody's birthday?
+NAME cake dialog
+
+DLG i
+"""
+{sequence
+  - {clr2}Rat:{clr2}{shk} I'm the giant rat that makes all of the rules!{shk}
+    {}
+    {clr2}Rat:{clr2} You want to reach the end of this dream?
+    {}
+    {clr2}Rat:{clr2} First, you'll have to get through my maze!
+}
+"""
+NAME rat dialog
+
+DLG j
+"""
+{sequence
+  - {clr2}Tiny Rat:{clr2} u hav to reach the end of dis maze 2 leave {wvy}dreamland{wvy}...
+    {}
+    {clr2}Tiny Rat:{clr2} i set dis one up myself, so i'd like {rbw}2 C{rbw} u try!
+}
+"""
+NAME rat 2 dialog
+
+DLG k
+hmm... I think this is the wrong way...
+NAME exit narration 1
+
+DLG m
+I think this is it!
+NAME exit narration 3
+
+DLG n
+This must be the one!
+NAME exit narration 4
+
+DLG o
+This must be the way!
+NAME exit narration 5
+
+DLG p
+"""
+{sequence
+  - {clr2}Little Rat:{clr2} yea... i made dis part of da maze...
+    {}
+    {clr2}Little Rat:{clr2} wut's it {rbw}2 U{rbw} ?
+}
+"""
+NAME rat 3 dialog
+
+DLG s
+"""
+{sequence
+  - {clr2}Babiest Rat:{clr2} aw yea u figured us out!
+    {}
+    {clr2}Babiest Rat:{clr2} tanks for playin our little game... {rbw}C U{rbw} later!!
+}
+"""
+NAME babiest rat dialog
+
+DLG u
+"""
+{sequence
+  - {clr2}Joseph Joestar:{clr2} Congrats on making it out of the maze!
+    {}
+    {clr2}Joseph Joestar:{clr2} How did I get here so fast??
+    {}
+    {clr2}Joseph Joestar:{clr2} Hermit Purple told me the way!
+    {}
+    {clr2}Joseph Joestar:{clr2} Good luck on getting out of {wvy}dreamland{wvy}... watch out for enemy stand users!
+}
+"""
+NAME Joseph 2 dialog
+
+DLG v
+"""
+{sequence
+  - {clr2}Ichiban Kasuga:{clr2} You made it out alive!!!
+    {}
+    {clr2}Ichiban Kasuga:{clr2} Now onto conquering the rest of {wvy}dreamland!{wvy}
+}
+"""
+NAME Ichiban 2 dialog
+
+DLG w
+"""
+{sequence
+  - {clr2}Little Duck:{clr2} Great job on making it out!!
+    {}
+    {clr2}Little Duck:{clr2} The rest of your big adventure awaits...
+    {}
+    {clr2}Little Duck:{clr2} You got this!!!
+}
+"""
+NAME Little Duck 2 dialog
+
+DLG x
+Finally! A way out of this rat maze...
+NAME exit narration 8
+
+DLG y
+"""
+{sequence
+  - {clr2}Little Rat:{clr2} hav ya figured it out yet?
+    {}
+    {clr2}Little Rat:{clr2} awww {rbw}U{rbw} hav, havn't {rbw}U{rbw}?
+}
+"""
+NAME baby rat dialog
+
+DLG fish1
+Wow! A fishing rod! Now you can go fishing
+NAME rod dialog
+
+DLG fish3
+"""
+{total = {item "fish1"} + {item "fish2"} + {item "fish3"}}
+{
+  - {total >= 10} ?
+    {wvy}mmmmmm{wvy}
+    {exit "ghosty1" 3 0 "fade_b"}
+  - else ?
+    {wvy}mrowwwr....{wvy} Please bring me some fish.
+    {common_str = " " + {6 - {item "3"}} + " more common fish."}
+    {rare_str = " " + {4 - {item "2"}} + " more rare fish."}
+    {chompy_str = " " + {2 - {item "1"}} + " more chompy fish."}
+    {total_str = " " + {10 - total} + " more reasonably sized fish."}
+    {say total_str}
+}
+"""
+NAME Cat dialog
+
+DLG fish4
+"""
+Did you get stuck? Don't worry, I'll send you somewhere else.
+{exit "room_1" 1 1}
+"""
+NAME Magic Guppy Dialogue
+
+DLG cave1
+You found a nice warm cup of tea
+NAME tea dialog
+
+DLG cave2
+A key! {wvy}What does it open?{wvy}
+NAME key dialog
+
+DLG cave3
+"""
+{
+  - ice_cream >= 1 ?
+    {property locked false}
+    {wvy}The ice cream creates a portal!{wvy}
+  - else ?
+    {property locked true}
+    Nothing happened...
+}
+"""
+NAME bottom right exit
+
+DLG cave4
+"""
+{sequence
+  - I'm a spirit!
+    {pg}
+    Follow the path behind me and you'll {rbw}get out{rbw} of this place and wake up.
+  -  ...well? Go on!
+  - ...okay, I was just messing with you. I need help actually... so let's strike a deal! You help me with what I need, and I help you get outta here.
+  - I need help getting pieces of my spirit back. There's {clr3}three{clr3} of em scattered around the place.
+    {pg}
+    Get me all three, and I'll give you a one way ticket to Awake Land.
+    {pg}
+    Sound good? Great. Hurry along now!
+  - {
+      - {item "cave2"} == 3 ?
+        You've found all my pieces! Here, as promised. Take this {clr3}ice cream{clr3}, holding onto it will allow you to leave this place. As for the exit, head to the bottom right corner. The ice cream should handle things for ya.
+        {ice_cream = 1}
+      - else ?
+        You're still missing some pieces. {shk}-_-{shk}
+    }
+}
+"""
+NAME spirit dialog
+
+DLG cave5
+You don't like how this is looking at you... whatever it is.
+NAME eye3 dialog
+
+DLG cave6
+You found a spirit piece!
+NAME spirit_piece dialog
+
+DLG cave8
+"""
+{sequence
+  - I'm just a small little baby spirit tiny baby.
+  - I think what you're looking for is down that way.
+    {pg}
+    I'd point you towards the right direction, but as you can see, I have no fingers.
+}
+"""
+NAME cave_spirit dialog
+
+DLG cave9
+"""
+{
+  - {item "cave2"} < 2 ?
+    Come back when you have two spirit pieces. I miiiiight be generous then and give you this piece behind me.
+  - else ?
+    Would you look at that, you only need one more piece. And here it is! Right here. Let me hand it over.
+    {exit "cave6" 13 6 "fade_w"}
+}
+"""
+NAME pumpkin dialog
+
+DLG a
+Go on, take it!
+NAME pumpkin2 dialog
+
+DLG caveb
+"""
+{sequence
+  - You feel well rested and ready to tackle the day.
+    {}
+    You finally managed to get a good night's sleep.
+}
+"""
+NAME ending 1
+
+DLG fish5
+
+NAME ending dialog
+
+DLG fish6
+You walk through the doorway
+NAME exit narration 9
+
+VAR ice_cream
+0
