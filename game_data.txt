@@ -960,8 +960,8 @@ cavei,cavei,caveh,caveh,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,ca
 cavei,cavei,caveh,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei
 cavei,cavei,caveh,caveh,cavej,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavei,cavej
 NAME ghosty1
-EXT 4,15 cave0 3,0 FX wave
-EXT 15,15 cave1 10,5 FX fade_b DLG 3
+EXT 4,15 cave0 3,0 FX wave DLG cave10
+EXT 15,15 cave1 10,5 FX fade_b DLG cave3
 EXT 15,9 cave2 0,9 FX slide_r
 PAL cave0
 
@@ -3766,20 +3766,30 @@ NAME bottom right exit
 DLG cave4
 """
 {sequence
-  - I'm a spirit!
-    {pg}
-    Follow the path behind me and you'll {rbw}get out{rbw} of this place and wake up.
-  -  ...well? Go on!
-  - ...okay, I was just messing with you. I need help actually... so let's strike a deal! You help me with what I need, and I help you get outta here.
-  - I need help getting pieces of my spirit back. There's {clr3}three{clr3} of em scattered around the place.
-    {pg}
-    Get me all three, and I'll give you a one way ticket to Awake Land.
-    {pg}
-    Sound good? Great. Hurry along now!
+  - Hey, you're trying to leave this place right?
+    {}
+    Let's strike a deal! You help me with what I need, and I help you get outta here.
+    {}
+    I need help getting pieces of my spirit back. There's {clr3}three{clr3} of em scattered around the place.
+    {}
+    Get me all three, and I'll give you a one way ticket to Awake Land. They look like this: {printItem "cave2"}
+    {}
+    Sound good? Great. Hurry along now and come back to me with my beloved parts!
+    {}
+    OR! You could use the {rbw}exit below me{rbw}.
+  - {
+      - tricked == true ?
+        Hehe, I really got you there. Did you think it'd be that easy?
+      - else ?
+        ...okay, just kidding. The path behind me won't get you out.
+    }
   - {
       - {item "cave2"} == 3 ?
         You've found all my pieces! Here, as promised. Take this {clr3}ice cream{clr3}, holding onto it will allow you to leave this place. As for the exit, head to the bottom right corner. The ice cream should handle things for ya.
         {ice_cream = 1}
+        {item "cave2" 0}
+      - ice_cream == 1 ?
+        Thanks so much for your help. I appreciate ya.
       - else ?
         You're still missing some pieces. {shk}-_-{shk}
     }
@@ -3840,5 +3850,13 @@ DLG fish6
 You walk through the doorway
 NAME exit narration 9
 
+DLG cave10
+"""
+Could it be...! 
+{tricked = true}
+"""
+NAME exit dialog 1
+
 VAR ice_cream
 0
+
