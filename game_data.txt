@@ -46,7 +46,7 @@ a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 a,a,d,d,d,d,d,d,d,d,d,d,d,d,a,a
 a,a,d,g,f,f,f,f,f,f,f,f,e,d,a,a
-a,a,d,h,0,0,0,0,0,0,1b,1c,l,d,a,a
+a,a,d,h,fishg,fishh,0,0,fishk,0,1b,1c,l,d,a,a
 a,a,d,h,u,v,0,0,q,0,1d,1e,l,d,a,a
 a,a,d,h,0,0,0,0,0,0,0,0,l,d,a,a
 a,a,d,h,0,0,0,0,0,0,10,11,l,d,a,a
@@ -59,7 +59,9 @@ a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
 NAME bed room
 ITM 0 8,5
-EXT 10,5 1 7,13 FX fade_b DLG 9
+ITM fish5 4,5
+ITM fish6 5,5
+EXT 10,5 1 7,13 FX fade_b DLG cave13
 PAL 0
 
 ROOM 1
@@ -84,7 +86,7 @@ ITM 3 9,6
 ITM 1 8,6
 ITM 2 7,6
 ITM 4 6,6
-EXT 8,0 2 6,6 FX tunnel
+EXT 8,0 2 6,6 FX tunnel DLG cave14
 PAL 1
 
 ROOM 2
@@ -395,7 +397,7 @@ ITM 5 12,3
 EXT 15,7 7 6,8 FX tunnel DLG k
 EXT 0,7 7 6,8 FX tunnel DLG k
 EXT 7,15 8 6,9 FX slide_d DLG m
-EXT 7,0 7 6,8 FX tunnel
+EXT 7,0 7 6,8 FX tunnel DLG k
 PAL 1
 
 ROOM 8
@@ -2017,18 +2019,18 @@ NAME door_top
 TIL fishg
 00111111
 00100000
-00101100
-00100101
-00100001
+00100000
+00100000
+00100000
 00111111
 00000010
 00000100
 >
 00111111
 00100000
-00101000
-00101101
-00100001
+00100000
+00100000
+00100000
 00111111
 00000010
 00000100
@@ -2037,18 +2039,18 @@ NAME tv tile left
 TIL fishh
 11111100
 00000100
-10000100
-01010100
-01000100
+00000100
+00000100
+00000100
 11111100
 01000000
 00100000
 >
 11111100
 00000100
-10010100
-01000100
-01000100
+00000100
+00000100
+00000100
 11111100
 01000000
 00100000
@@ -2093,6 +2095,17 @@ TIL fishj
 11110000
 00000000
 NAME computer tile right
+
+TIL fishk
+00000000
+00000000
+00000000
+00000000
+00111100
+01100100
+00100100
+00011000
+NAME empty mug
 
 SPR 10
 00000000
@@ -2257,28 +2270,6 @@ NAME door bottom left
 DLG 0
 POS 0 7,12
 
-SPR b
-00111111
-00100000
-00101100
-00100101
-00100001
-00111111
-00000010
-00000100
->
-00111111
-00100000
-00101000
-00101101
-00100001
-00111111
-00000010
-00000100
-NAME tv left
-DLG 4
-POS 0 4,5
-
 SPR c
 00000011
 00000011
@@ -2291,28 +2282,6 @@ SPR c
 NAME door right
 DLG 3
 POS 0 8,12
-
-SPR d
-11111100
-00000100
-10010100
-11000100
-01000100
-11111100
-01000000
-00100000
->
-11111100
-00000100
-10000100
-11010100
-01000100
-11111100
-01000000
-00100000
-NAME tv right
-DLG 5
-POS 0 5,5
 
 SPR e
 00000100
@@ -3415,30 +3384,6 @@ ITM fish4
 00000000
 NAME guppy
 
-ITM cave0
-00000000
-00000000
-00000000
-00111100
-01100100
-00100100
-00011000
-00000000
-NAME tea
-DLG cave1
-
-ITM cave1
-00000000
-00111100
-00100100
-00111100
-00010000
-00011000
-00010000
-00011000
-NAME key
-DLG cave2
-
 ITM cave2
 00000000
 00111100
@@ -3480,6 +3425,48 @@ ITM cave3
 00000000
 NAME sparkle_decor
 
+ITM fish5
+00111111
+00100000
+00101100
+00101001
+00100001
+00111111
+00000010
+00000100
+>
+00111111
+00100000
+00100100
+00101101
+00100001
+00111111
+00000010
+00000100
+NAME tv1
+DLG cave11
+
+ITM fish6
+11111100
+00000100
+10000100
+11010100
+01000100
+11111100
+01000000
+00100000
+>
+11111100
+00000100
+10010100
+11000100
+01000100
+11111100
+01000000
+00100000
+NAME tv2
+DLG cave12
+
 DLG 0
 It is time for bed...
 NAME door left dialog
@@ -3489,22 +3476,8 @@ Maybe some warm tea will help you get a quality night of sleep.
 NAME tea dialog
 
 DLG 3
-You are feeling pretty sleepy...
+You should probably go to bed soon...
 NAME door right dialog
-
-DLG 4
-You should probably turn the TV off, it might help you sleep.
-NAME tv left dialog
-
-DLG 5
-"""
-{sequence
-  - You left the news channel playing on the TV.
-    {}
-    The anchor is pretty loud.
-}
-"""
-NAME tv right dialog
 
 DLG 6
 Your computer screen displays a long list of things you did today.
@@ -3608,11 +3581,12 @@ NAME cake dialog
 DLG i
 """
 {sequence
-  - {clr2}Rat:{clr2}{shk} I'm the giant rat that makes all of the rules!{shk}
+  - {clr2}Giant Rat:{clr2}{shk} I'm the giant rat that makes all of the rules!{shk}
     {}
-    {clr2}Rat:{clr2} You want to reach the end of this dream?
+    {clr2}Giant Rat:{clr2} You want to reach the end of this dream?
     {}
-    {clr2}Rat:{clr2} First, you'll have to get through my maze!
+    {clr2}Giant Rat:{clr2} First, you'll have to get through my maze!
+    {maze_permission = 1}
 }
 """
 NAME rat dialog
@@ -3628,7 +3602,27 @@ DLG j
 NAME rat 2 dialog
 
 DLG k
-hmm... I think this is the wrong way...
+"""
+{
+  - wrong_guess == 1 ?
+    This is definitely the wrong way...
+    {}
+    maybe the rat can give me a hint?
+  - wrong_guess == 2 ?
+    Wrong way again...
+    {}
+    maybe these hedges are hiding some clues?
+  - wrong_guess >= 3 ?
+    The rat said some funny words...
+    {pg}
+    and the flowers on the bushes make some funny shapes...
+    {}
+    I think those might tell me which way to go!
+  - else ?
+    hmm... I think this is the wrong way...
+}
+{wrong_guess = wrong_guess + 1}
+"""
 NAME exit narration 1
 
 DLG m
@@ -3742,14 +3736,6 @@ Did you get stuck? Don't worry, I'll send you somewhere else.
 """
 NAME Magic Guppy Dialogue
 
-DLG cave1
-You found a nice warm cup of tea
-NAME tea dialog
-
-DLG cave2
-A key! {wvy}What does it open?{wvy}
-NAME key dialog
-
 DLG cave3
 """
 {
@@ -3843,7 +3829,7 @@ DLG caveb
 NAME ending 1
 
 DLG fish5
-
+You finally awaken from your strange dream...
 NAME ending dialog
 
 DLG fish6
@@ -3852,11 +3838,73 @@ NAME exit narration 9
 
 DLG cave10
 """
-Could it be...! 
+Could it be...!
 {tricked = true}
 """
 NAME exit dialog 1
 
+DLG cave11
+"""
+The TV is playing the evening news on full volume.
+{}
+You should probably turn this off...
+"""
+NAME tv item left dialog
+
+DLG cave12
+"""
+This news anchor is pretty loud...
+{}
+It might be hard to sleep with this much volume...
+"""
+NAME tv item right dialog
+
+DLG cave13
+"""
+{stuff = {item "tea"} + {item "tv1"} + {item "tv2"}}
+{
+  - {stuff >= 3} ?
+    {property locked false}
+    You crawl in to bed and burrow under the covers.
+    {}
+    As you drift off to sleep, you recount today's events.
+    {}
+    You did some light gardening in the morning...
+    {}
+    You caught some fish at the pond in the afternoon...
+    {}
+    and you went for a stroll in the grove near the cave before returning home in the evening.
+    {pg}
+    After your long day, all you can hope for is a good night's sleep.
+  - else ?
+    {property locked true}
+    You aren't quite sleepy enough for bed just yet...
+}
+"""
+NAME locked exit 1
+
+DLG cave14
+"""
+{
+  - maze_permission == 1 ?
+    {property locked false}
+    A maze? I hope there's some hints inside...
+  - else ?
+    {property locked true}
+    I should probably talk to this rat by the exit first, I think he knows something...
+}
+"""
+NAME locked exit 2
+
+DLG cave15
+You walk through the doorway
+NAME exit narration 10
+
 VAR ice_cream
 0
 
+VAR maze_permission
+0
+
+VAR wrong_guess
+0
