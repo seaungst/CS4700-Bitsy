@@ -133,38 +133,38 @@ ROOM 3
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,fishl,c,c,c,c,c,c,fishl,c,b,0,0
+0,0,b,c,fishl,fishl,c,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,fishl,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,fishl,c,b,0,0
+0,0,b,c,c,c,c,fishl,fishl,fishl,c,c,c,b,0,0
+0,0,b,c,c,fishl,c,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,c,c,c,c,c,fishl,c,b,0,0
+0,0,b,c,fishl,fishl,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,fishl,c,c,c,fishl,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME room_3
-ITM fish4 4,3
+ITM fish4 11,3
 ITM fish4 8,4
+ITM fish4 5,4
+ITM fish4 4,5
+ITM fish4 11,6
 ITM fish4 9,7
+ITM fish4 8,8
+ITM fish4 7,7
 ITM fish4 5,8
+ITM fish4 5,10
+ITM fish4 4,10
 ITM fish4 7,11
 ITM fish4 11,9
-ITM fish4 11,6
-ITM fish4 5,4
-ITM fish4 4,10
-ITM fish4 7,7
+ITM fish4 11,11
+ITM fish4 4,3
+ITM fish3 4,4
 ITM fish3 8,7
 ITM fish3 5,9
-ITM fish3 4,4
-ITM fish4 4,5
-ITM fish4 8,8
-ITM fish4 5,10
-ITM fish4 11,11
-ITM fish4 11,3
 EXT 7,7 fish1 7,7
 EXT 9,7 fish1 9,7
 EXT 8,7 fish1 8,7
@@ -188,47 +188,47 @@ PAL fish0
 ROOM 4
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,fishl,fishl,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,c,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,fishl,fishl,fishl,fishl,c,b,0,0
+0,0,b,c,c,c,fishl,c,c,c,fishl,fishl,c,b,0,0
+0,0,b,c,c,c,fishl,fishl,fishl,fishl,fishl,fishl,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME room_4
-ITM fish4 6,5
-ITM fish4 6,6
-ITM fish4 6,7
-ITM fish4 6,8
-ITM fish4 6,9
-ITM fish4 6,10
-ITM fish4 8,10
-ITM fish4 7,10
-ITM fish4 9,10
-ITM fish4 10,10
-ITM fish4 11,10
-ITM fish4 8,8
-ITM fish4 8,7
-ITM fish4 8,6
+ITM fish4 5,2
+ITM fish4 6,2
+ITM fish4 7,2
+ITM fish4 8,2
+ITM fish4 8,3
+ITM fish4 8,4
 ITM fish4 8,5
+ITM fish4 8,6
+ITM fish4 8,7
+ITM fish4 8,8
 ITM fish4 9,8
 ITM fish4 10,8
 ITM fish4 11,8
-ITM fish4 5,4
-ITM fish4 8,4
-ITM fish4 8,3
-ITM fish4 8,2
-ITM fish4 7,2
-ITM fish4 6,2
-ITM fish4 5,2
 ITM fish4 11,9
+ITM fish4 11,10
+ITM fish4 10,10
+ITM fish4 9,10
+ITM fish4 8,10
+ITM fish4 7,10
+ITM fish4 6,10
+ITM fish4 6,9
+ITM fish4 6,8
+ITM fish4 6,7
+ITM fish4 6,6
+ITM fish4 6,5
+ITM fish4 5,4
 ITM fish1 10,9
 EXT 5,4 fish2 5,4
 EXT 5,2 fish1 5,2
@@ -262,16 +262,16 @@ PAL fish0
 ROOM 5
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,c,c,c,0,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,0,c,c,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,0,c,c,0,c,0,c,0,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,0,c,c,b,0,0
+0,0,b,c,c,c,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,0,c,0,c,c,c,0,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -471,17 +471,17 @@ PAL 1
 ROOM fish0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,fishe,fishe,fishe,fishe,fishe,fishe,fishe,fishe,fishe,fishe,0,0,0
+0,0,fishe,c,c,c,c,c,c,c,c,c,0,fishe,0,0
+0,0,fishe,c,0,c,c,0,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,0,c,c,c,c,0,c,c,fishe,0,0
 0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,0,c,c,c,fishe,0,0
+0,0,fishe,c,0,0,c,c,c,c,c,c,0,fishe,0,0
+0,0,fishe,c,c,c,c,0,c,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,c,c,0,c,c,fishe,0,0
+0,0,fishe,c,c,0,c,c,c,c,c,0,c,fishe,0,0
 0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,c,c,c,c,c,fishe,0,0
-0,0,fishe,c,c,c,c,c,0,c,c,c,c,fishe,0,0
+0,0,fishe,c,c,c,c,c,fishl,c,c,c,c,fishe,0,0
 0,0,0,fishf,fishf,fishf,fishf,fishf,fishf,fishf,fishf,fishf,fishf,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -509,15 +509,15 @@ ROOM fish1
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,0,c,c,b,0,0
+0,0,b,c,c,c,c,0,c,c,c,0,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,0,c,c,c,0,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,0,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,0,c,c,c,c,0,c,0,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -555,16 +555,16 @@ ROOM fish2
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,0,c,c,0,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,0,c,c,c,b,0,0
+0,0,b,c,c,c,c,0,c,c,c,c,0,b,0,0
+0,0,b,0,c,c,c,c,c,0,c,0,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,c,0,b,0,0
+0,0,b,c,0,c,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,0,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -612,16 +612,16 @@ PAL fish0
 ROOM fish6
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
+0,0,b,c,c,c,c,c,0,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,c,c,0,c,b,0,0
+0,0,b,0,c,0,c,0,c,0,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,0,0,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,c,c,0,c,b,0,0
+0,0,b,c,c,c,c,0,c,c,c,0,c,b,0,0
+0,0,b,c,0,c,0,c,c,c,0,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,c,0,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -654,15 +654,15 @@ ROOM fish7
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,0,c,c,c,0,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,c,0,c,c,b,0,0
+0,0,b,c,c,c,c,0,c,0,c,0,c,b,0,0
+0,0,b,c,0,c,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,0,c,0,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,0,c,c,b,0,0
+0,0,b,c,0,c,0,c,c,c,c,0,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -696,15 +696,15 @@ ROOM fish8
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,fishl,c,0,c,c,b,0,0
+0,0,b,c,c,0,c,c,fishl,c,c,0,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,c,0,c,b,0,0
+0,0,b,c,c,c,c,c,c,0,c,0,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,0,c,c,b,0,0
+0,0,b,c,c,c,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,0,c,c,b,0,0
+0,0,b,c,0,0,c,0,0,c,0,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -818,14 +818,14 @@ ROOM a
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,0,c,0,c,c,c,0,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,c,0,c,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,0,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,0,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,0,c,c,0,c,c,b,0,0
+0,0,b,c,c,0,c,c,0,c,c,0,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -853,11 +853,11 @@ ROOM b
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,0,0,c,0,0,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,0,0,c,0,0,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,0,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
@@ -900,14 +900,14 @@ ROOM c
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,0,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -921,14 +921,14 @@ ROOM d
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,0,c,c,c,b,0,0
+0,0,b,c,c,0,c,c,c,c,c,0,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,0,c,b,0,0
+0,0,b,c,c,c,c,0,c,c,c,c,c,b,0,0
+0,0,b,c,0,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,0,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2106,6 +2106,26 @@ TIL fishk
 00100100
 00011000
 NAME empty mug
+
+TIL fishl
+00000000
+00111000
+01000100
+01000100
+01000100
+00111000
+00000000
+00000000
+>
+01111100
+10000010
+10000010
+10010010
+10000010
+10000010
+01111100
+00000000
+NAME ripple
 
 SPR 10
 00000000
@@ -3908,3 +3928,4 @@ VAR maze_permission
 
 VAR wrong_guess
 0
+
