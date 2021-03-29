@@ -3687,8 +3687,9 @@ NAME computer left dialog
 DLG 7
 """
 {sequence
-  - Psst. Go under me. Just trust me.
-  - You can thank me later.
+  - Psst. Go under me. Below me. Like the spot under my feet! Just trust me.
+    {}
+    You can thank me later.
 }
 """
 NAME crow dialog
