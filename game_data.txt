@@ -502,7 +502,7 @@ ITM fish1 12,2
 ITM fish2 5,7
 ITM fish3 7,3
 ITM fish0 2,0
-EXT 2,0 fish1 4,0
+EXT 2,0 fish1 2,0
 PAL fish0
 
 ROOM fish1
