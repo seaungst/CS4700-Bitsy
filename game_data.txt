@@ -95,7 +95,7 @@ EXT 10,5 1 7,13 FX fade_b DLG cave13
 PAL 0
 
 ROOM 1
-a,a,a,a,a,a,15,0,fishl,19,a,a,a,a,a,a
+a,a,a,a,a,a,15,0,fishp,19,a,a,a,a,a,a
 a,a,a,a,a,14,1f,0,0,1a,12,a,a,a,a,a
 a,a,a,a,14,0,0,0,0,0,1a,12,a,a,a,a
 a,a,a,14,1f,0,1k,0,0,1l,0,1a,12,a,a,a
@@ -120,7 +120,7 @@ EXT 8,0 2 6,6 FX tunnel DLG cave14
 PAL 1
 
 ROOM 2
-a,a,a,a,a,15,0,fishl,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,fishp,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
@@ -338,7 +338,7 @@ EXT 5,11 b 5,11
 PAL fish0
 
 ROOM 6
-a,a,a,a,a,15,0,fishl,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,fishp,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
@@ -382,7 +382,7 @@ EXT 15,7 fisha 6,8 FX slide_r DLG m
 PAL fish2
 
 ROOM 7
-a,a,a,a,a,15,0,fishl,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,fishp,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
@@ -431,7 +431,7 @@ EXT 7,0 7 6,9 FX tunnel DLG k
 PAL fish3
 
 ROOM 8
-a,a,a,a,a,15,0,fishl,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,fishp,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
@@ -1163,7 +1163,7 @@ END caveb 9,5
 PAL 2
 
 ROOM fisha
-a,a,a,a,a,15,0,fishl,0,0,19,a,a,a,a,a
+a,a,a,a,a,15,0,fishp,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,1k,19,a,a,a,a,a
 a,a,a,a,a,15,0,0,0,0,19,a,a,a,a,a
 a,a,a,a,a,15,1k,0,0,0,19,a,a,a,a,a
@@ -2181,7 +2181,7 @@ TIL fishk
 00011000
 NAME empty mug
 
-TIL fishl
+TIL fishp
 00000000
 00011000
 00111100
@@ -2854,7 +2854,7 @@ SPR fishk
 DLG fish3
 POS fish8 3,0
 
-SPR fishl
+SPR fishp
 00000000
 00000000
 01010001
