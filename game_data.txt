@@ -501,41 +501,41 @@ ITM fish3 10,9
 ITM fish1 12,2
 ITM fish2 5,7
 ITM fish3 7,3
-ITM fish0 4,0
-EXT 4,0 fish1 4,0
+ITM fish0 2,0
+EXT 2,0 fish1 4,0
 PAL fish0
 
 ROOM fish1
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,0,c,c,c,c,c,0,c,c,b,0,0
-0,0,b,c,c,c,c,0,c,c,c,0,c,b,0,0
-0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,0,c,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,fishl,c,c,c,c,c,fishl,c,c,b,0,0
+0,0,b,c,c,c,c,fishl,c,c,c,fishl,c,b,0,0
+0,0,b,c,c,fishl,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,fishl,c,c,c,fishl,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,0,c,c,c,c,c,0,c,b,0,0
+0,0,b,c,c,fishl,c,c,c,c,c,fishl,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,0,c,c,c,c,b,0,0
-0,0,b,c,0,c,c,c,c,0,c,0,c,b,0,0
+0,0,b,c,c,c,c,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,fishl,c,c,c,c,fishl,c,fishl,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME room_1
-ITM fish4 4,3
-ITM fish4 8,6
-ITM fish4 5,8
+ITM fish4 11,11
 ITM fish4 8,10
+ITM fish4 4,11
+ITM fish4 5,8
+ITM fish4 8,6
+ITM fish4 11,8
 ITM fish4 11,4
 ITM fish4 10,3
 ITM fish4 5,5
-ITM fish4 11,11
-ITM fish4 11,8
-ITM fish4 4,11
+ITM fish4 4,3
 ITM fish3 7,4
-ITM fish3 9,11
 ITM fish3 4,6
+ITM fish3 9,11
 EXT 4,3 fish2 4,3
 EXT 10,3 3 10,3
 EXT 5,5 fish2 5,5
@@ -555,39 +555,39 @@ ROOM fish2
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,fishl,c,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,c,c,fishl,c,c,c,c,b,0,0
 0,0,b,c,c,c,fishl,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,0,c,c,0,c,b,0,0
-0,0,b,c,0,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,0,c,c,0,c,c,c,b,0,0
-0,0,b,c,c,c,c,0,c,c,c,c,0,b,0,0
-0,0,b,0,c,c,c,c,c,0,c,0,c,b,0,0
-0,0,b,c,c,0,c,c,c,c,c,c,0,b,0,0
-0,0,b,c,0,c,c,c,0,c,c,c,c,b,0,0
-0,0,b,c,c,0,c,c,c,c,0,c,c,b,0,0
+0,0,b,c,c,c,c,c,fishl,c,c,fishl,c,b,0,0
+0,0,b,c,fishl,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,c,fishl,c,c,c,b,0,0
+0,0,b,c,c,c,c,fishl,c,c,c,c,fishl,b,0,0
+0,0,b,fishl,c,c,c,c,c,fishl,c,fishl,c,b,0,0
+0,0,b,c,c,fishl,c,c,c,c,c,c,fishl,b,0,0
+0,0,b,c,fishl,c,c,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,c,c,c,c,fishl,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME room_2
-ITM fish4 5,3
-ITM fish4 8,5
-ITM fish4 9,9
+ITM fish4 5,12
 ITM fish4 5,10
+ITM fish4 3,9
 ITM fish4 8,11
 ITM fish4 10,12
-ITM fish4 12,8
-ITM fish4 11,5
-ITM fish4 4,6
-ITM fish4 3,9
-ITM fish4 8,3
-ITM fish4 6,7
-ITM fish4 9,7
 ITM fish4 12,10
-ITM fish4 5,12
-ITM fish3 6,4
-ITM fish3 11,9
-ITM fish3 4,11
+ITM fish4 9,9
+ITM fish4 6,7
+ITM fish4 4,6
+ITM fish4 5,3
+ITM fish4 8,3
+ITM fish4 8,5
+ITM fish4 9,7
+ITM fish4 11,5
+ITM fish4 12,8
 ITM fish2 7,8
+ITM fish3 11,9
+ITM fish3 6,4
+ITM fish3 4,11
 EXT 5,3 3 5,3
 EXT 8,3 3 8,3
 EXT 6,4 4 6,4
@@ -853,11 +853,11 @@ ROOM b
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,0,c,0,c,c,c,c,b,0,0
-0,0,b,c,c,0,0,c,0,0,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,0,0,c,0,0,c,c,c,b,0,0
-0,0,b,c,c,c,0,c,0,c,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,fishl,c,fishl,fishl,c,c,c,b,0,0
+0,0,b,c,c,c,c,fishl,c,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,fishl,c,fishl,fishl,c,c,c,b,0,0
+0,0,b,c,c,c,fishl,c,fishl,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
@@ -866,19 +866,19 @@ ROOM b
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME room_11
-ITM fish4 5,7
-ITM fish4 6,7
-ITM fish4 6,8
+ITM fish1 7,6
+ITM fish4 6,4
+ITM fish4 6,5
+ITM fish4 5,5
 ITM fish4 8,4
 ITM fish4 8,5
 ITM fish4 9,5
-ITM fish4 8,8
-ITM fish4 8,7
 ITM fish4 9,7
-ITM fish4 5,5
-ITM fish4 6,5
-ITM fish4 6,4
-ITM fish1 7,6
+ITM fish4 8,7
+ITM fish4 8,8
+ITM fish4 6,8
+ITM fish4 6,7
+ITM fish4 5,7
 EXT 7,6 fish2 7,6
 EXT 6,4 4 6,4
 EXT 6,5 5 6,5
@@ -900,14 +900,14 @@ ROOM c
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,c,c,0,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,c,fishl,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2264,7 +2264,6 @@ SPR 16
 00000000
 NAME Magic Guppy
 DLG fish4
-POS c 5,5
 
 SPR A
 00011100
@@ -2818,7 +2817,6 @@ SPR fishn
 00111100
 00100100
 DLG fish3
-POS b 3,0
 
 SPR fisho
 00000000
@@ -3735,15 +3733,12 @@ DLG fish3
 """
 {total = {item "fish1"} + {item "fish2"} + {item "fish3"}}
 {
-  - {total >= 10} ?
-    {wvy}mmmmmm{wvy}
+  - {total >= 7} ?
+    {wvy}mmmmmm, yummy{wvy}
     {exit "ghosty1" 3 0 "fade_b"}
   - else ?
-    {wvy}mrowwwr....{wvy} Please bring me some fish.
-    {common_str = " " + {6 - {item "3"}} + " more common fish."}
-    {rare_str = " " + {4 - {item "2"}} + " more rare fish."}
-    {chompy_str = " " + {2 - {item "1"}} + " more chompy fish."}
-    {total_str = " " + {10 - total} + " more reasonably sized fish."}
+    {wvy}mrowwwr....{wvy} I'm very hungry.
+    {total_str = "Please bring me " + {7 - total} + " more reasonably sized fish."}
     {say total_str}
 }
 """
