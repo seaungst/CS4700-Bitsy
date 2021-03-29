@@ -262,35 +262,35 @@ PAL fish0
 ROOM 5
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,b,b,b,b,b,b,b,b,b,b,0,0,0
-0,0,b,c,c,c,c,c,c,c,c,0,c,b,0,0
-0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,0,c,c,c,b,0,0
-0,0,b,c,0,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,0,c,c,0,c,0,c,0,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,c,fishl,c,b,0,0
+0,0,b,c,c,fishl,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,fishl,c,c,c,b,0,0
+0,0,b,c,fishl,c,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,fishl,c,c,fishl,c,fishl,c,fishl,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,0,c,c,c,c,c,c,c,b,0,0
-0,0,b,c,c,c,c,c,c,c,0,c,c,b,0,0
-0,0,b,c,c,c,c,c,0,c,c,c,c,b,0,0
-0,0,b,c,c,0,c,0,c,c,c,0,c,b,0,0
+0,0,b,c,c,fishl,c,c,c,c,c,c,c,b,0,0
+0,0,b,c,c,c,c,c,c,c,fishl,c,c,b,0,0
+0,0,b,c,c,c,c,c,fishl,c,c,c,c,b,0,0
+0,0,b,c,c,fishl,c,fishl,c,c,c,fishl,c,b,0,0
 0,0,b,c,c,c,c,c,c,c,c,c,c,b,0,0
 0,0,0,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,fishd,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME room_5
-ITM fish4 5,3
-ITM fish4 9,4
-ITM fish4 9,6
-ITM fish4 5,8
-ITM fish4 8,10
-ITM fish4 11,11
-ITM fish4 11,6
-ITM fish4 4,6
-ITM fish4 5,11
-ITM fish4 7,6
 ITM fish4 11,2
-ITM fish3 4,5
-ITM fish3 10,9
+ITM fish4 9,4
+ITM fish4 5,3
+ITM fish4 7,6
+ITM fish4 9,6
+ITM fish4 11,6
+ITM fish4 11,11
+ITM fish4 8,10
+ITM fish4 5,11
+ITM fish4 5,8
+ITM fish4 4,6
 ITM fish3 7,11
+ITM fish3 10,9
+ITM fish3 4,5
 EXT 5,3 c 5,3
 EXT 4,5 b 4,5
 EXT 10,9 b 10,9
