@@ -4018,7 +4018,7 @@ DLG cave9
 NAME pumpkin dialog
 
 DLG a
-Go on, take it!
+I hope that piece helps you, hee-ho! Good luck getting out of here!!
 NAME pumpkin2 dialog
 
 DLG caveb
